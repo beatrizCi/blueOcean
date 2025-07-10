@@ -2,7 +2,7 @@ import React from "react";
 
 function Hero() {
   return (
-    <div className="absolute inset-0 flex items-end justify-between px-10 pb-10 text-white">
+    <section className="flex items-end justify-between px-10 pb-10 text-white min-h-[60vh]">
       <div className="max-w-xl">
         <h1 className="text-5xl font-semibold mb-4 leading-tight">
           The ocean can't filter <br />
@@ -18,7 +18,7 @@ function Hero() {
           <button className="border border-white px-4 py-2 rounded">Learn more</button>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

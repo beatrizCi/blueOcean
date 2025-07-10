@@ -1,0 +1,23 @@
+body {
+    background-size: cover;
+    background-color: aliceblue;
+  }
+  
+  .navbar {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #939392;
+    top: 0;
+    background-color: #ccd0d0;
+  }
+
+
+  .glass-bg {
+    /* From https://css.glass */
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(2, 41, 108, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(149, 217, 232, 0.125);
+  }
